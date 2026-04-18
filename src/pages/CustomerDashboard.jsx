@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { listenToProducts, fetchRealTimePrices, placeOrder, listenToCustomerOrders, listenToNotifications, completeOrder } from '../data/firebaseDB';
 import { MapContainer, TileLayer, Marker, Polyline, Popup } from 'react-leaflet';
